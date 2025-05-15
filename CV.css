@@ -1,0 +1,67 @@
+<title>CV - Prénom Nom</title>
+<style>
+body {
+ font-family: Arial, sans-serif;
+ margin: 40px;
+}
+.header {
+    display: flex;
+    align-items:center;
+}
+.photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%
+    object-fit: cover;
+    margin-right: 20px;
+}
+.info{
+    line-height: 1.6;
+}
+.info h1 {
+    margin: 0;
+    font-size: 24px:
+}
+ .NOM{
+    text-decoration: underline;color: green;
+ }
+ .prenoms{
+    text-decoration: underline;color: green;
+ }
+ .age{
+    text-decoration: underline;color: green;
+ }
+ .adresse{
+    text-decoration: underline;color: green;
+ }
+ .lieu{
+    text-decoration: underline;color: green;
+ }
+ .tel{
+    text-decoration: underline;color: green;
+ }
+ .email{
+    text-decoration: underline;color: green;
+ }
+ .date{
+    text-decoration: underline;color: green;
+
+ }
+ .nat{
+    text-decoration: underline;color: green;
+ }
+ h1{
+    color: green;text-align: center;text-decoration: underline;
+ }
+ .BAC{
+    color: green;
+ }
+ .lol{
+    color: green;
+ }
+ .L1{
+    color: green;
+ }
+body{
+    background-color: beige;
+}

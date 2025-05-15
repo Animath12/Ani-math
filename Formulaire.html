@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+ <html lang="fr">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Formulaire.css">
+ </head>
+ <body>
+  
+ </body>
+ </html>
+<body>
+    <h2><em>FORMULAIRE D'INTEGRATION</em></h2>
+    <form method="post" action="traitement.php"></form method>
+      <fieldset>
+         <legend class="bref"><p><strong>ETAT CIVIL</strong></p></legend>
+        <p><label><strong>Matricule</strong></label> : <input type="text" name="matricule" /></p>
+        <p><label><strong>Nom</strong></label> : <input type="text" name="nom" /></p>
+        <p><label><strong>Prénoms</strong></label> : <input type="text" name="prénoms"/></p>
+        <label for="Sexe"> <strong>Sexe</strong> :</label>
+        <select name="Sexe" id="Sexe">
+          <option value="">    </option>
+          <option value="Masculin">Masculin</option>
+          <option value="Féminin">Féminin</option>
+        </select>
+        <p><label><strong>Date de naissance</strong></label> : <input type="text" name="date de naissance" /></p>
+        <p><label><strong>Âge</strong></label> : <input type="text" name="âge" /></p>
+        </fieldset>
+      <fieldset>
+<legend class="tre"><p><strong>MES DIPLÔMES</strong></p></legend>
+        <input type="checkbox" name=" CEP" id="CEP" /> <label for="CEP">CEP</label> 
+        <input type="checkbox" name="BEPC" id="BEPC" /> <label for="BEPC">BEPC</label>
+        <input type="checkbox" name="BAC" id="BAC" /> <label for="BAC">BAC</label>
+        </fieldset>
+        <fieldset>
+        <legend class="Moi"><p><strong>EXPERTISE</strong></p></legend>
+<input type="radio" name="Expert IT" value="Expert IT" id="Expert IT" /> <label for="Expert IT">Expert IT</label>
+<input type="radio" name="Expert Barvadage" value="Expert Barvadage" id="Expert Barvadage" /> <label for="Expert Barvadage">Expert Barvadage</label><br />
+ </fieldset>
+ <fieldset>
+<legend class="lui"><p><strong>LES BOUTONS</strong></p></legend>
+
+<input type="button" value="Envoyer" /> <input type="button" value="Effacer" /> <input type="button" value="Quitter" /> 
+  </fieldset>
+</form>
+</body>
+</html>
+
+
